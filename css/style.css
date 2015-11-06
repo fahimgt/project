@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+p{
+    font-family: 'Courgette', cursive;
+}
+h1,h2,h3,a{
+    font-family: 'Anton', sans-serif;
+}
+.main_wrapper{
+   width: 100%;
+    height: auto;
+}
+.header_wrapper{
+   width: 100%;
+    height: auto; 
+     
+}
+.header{
+    width: 70%;
+    height: 80px;
+    border-bottom:  1px solid #DADADA;
+    margin: 0 auto;
+   
+}
+.logo{
+ margin: 25px 0 5px 399px;
+    padding: 0;
+    
+}
+.logo img{
+  max-width: 300px; 
+}
+.nav_wrapper{
+    width: 100%;
+    height: auto; 
+}
+.nav{
+   width: 70%;
+    height: 42px;
+    margin: 0 auto;
+    border-bottom:  2px solid #DADADA;
+}
+.nav_manu{
+    width: 100%;
+    
+}
+.nav_manu ul{
+    margin:-57px 0 64px 25px;
+    padding: 0;
+}
+.nav_manu ul li{
+    list-style: none;
+    float: left;
+    margin: 10px 10px;
+}
+.nav_manu ul li a{
+    text-decoration: none;
+    color: #949391;
+}
+.nav_search{
+   margin: 0 26px;
+    float: right;
+}
+.nav_search input[type="search"]{
+    width: 193px;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+}
+.slider_wrapper{
+     width: 100%;
+    height: auto;
+    margin-top: 26px;
+}
+.slider{
+  width: 64%;
+    height: 395px;
+    margin: 0 auto;
+    position: relative;
+}
+.slider_icon{
+    position: absolute;
+    top: 0;
+}
+.slider_icon_one{
+    margin: 162px 0 0 0;
+    float: left;
+}
+.slider_icon_two{
+    margin: 162px 0 0 0;
+    float: right;
+}
+.slider_icon_three{
+    margin: 261px 0 0 0;
+    opacity: .7;
+}
+.slider_icon_three p{
+   text-align: center;
+    background: #fef9f3;
+    color: #050505;
+}
+.slider_icon_four{
+    margin: 0 0 0 340px;
+    margin-bottom: 100px
+
+}
+.section_wrapper{
+     width: 100%;
+    height: auto;
+}
+.section{
+    width: 64%;
+    height: 114px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 3px solid #f0f0ee;
+}
+.section h3{
+    text-align: center;
+    margin-top: 15px;
+    color: #3b3b3b;
+}
+.portfolio_wrapper{
+     width: 100%;
+    height: auto;
+}
+.portfolio{
+     width: 64%;
+    height: 420px;
+    margin: 14px auto;
+    border-bottom:  2px solid #DADADA;
+}
+.portfolio h1{
+    margin-bottom: 13px;
+    color: #393939;
+}
+.portfolio h1 span{
+    color: #dab075;
+}
+.portfolio_one{
+    float: left;
+    width: 25%;
+    height: 165px;
+}
+
+.portfolio_one img{
+    width: 205px;
+    
+}
+.blog_wrapper{
+    width: 100%;
+    height: auto;
+}
+.blog{
+    width: 64%;
+    margin: 0 auto;
+}
+.blog_left{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.blog_left h1{
+    margin-bottom: 10px;
+}
+.blog_left span{
+    color: #dab075;
+}
+.blog_left h1{
+    color: #393939;
+}
+.blog_left img{
+    margin: 12px 0 0 311px;
+}
+
+
+.blog_right{
+    width: 50%;
+    height: 379px;
+    float: left;
+}
+.blog_right h1{
+    margin-bottom: 16px;
+}
+.blog_pos{
+    width: 100%;
+}
+.blog_right span{
+    color: #dab075;
+}
+.blog_right h1{
+    color: #393939;
+}
+.blog_image{
+    width: 20%;
+    float: left;
+    
+}
+.blog_text{
+    width: 80%;
+    float: left;
+}
+.blog_text span{
+    color: #dab075;
+}
+.blog_button{
+    width: 5%;
+    float: right;
+    margin: 54px 63px 0 0;
+}
+.footer_wrapper{
+    width: 100%;
+    height: auto;
+}
+.footer{
+    width: 100%;
+    background-image: url(../images/footer_image.png);
+    background-size: cover;
+    height: 300px;
+    clear: both;
+}
+.footer_top{
+    width: 64%;
+    margin: 0 auto;
+}
+.footer_top_social{
+    width: 30%;
+    float: left;
+}
+.footer_top_social ul{
+    margin: 129px 0 0 -6px;
+    padding: 0;
+}
+.footer_top_social ul li{
+    float: left;
+    list-style: none;
+}
+
+.footer_top_social ul li a{
+    
+}
+.footer_top_left{
+    width: 26%;
+    float: left;
+    margin: 0 2%;
+    
+}
+.footer_top_middle{
+    width: 36%;
+    float: left;
+    margin: 0 2%;
+}
+.Search{
+    width: 50%;
+    float: left;
+}
+.Search ui li a{
+    
+}
+.Search_one{
+    width: 50%;
+    float: left;
+
+}
+
+.footer_top_middle ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer_top_middle ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.footer_top_middle ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #858484;
+}
+.footer_top p{
+    font-size: 13px;
+}
+.footer_top h2{
+    margin-top: 20px;
+    color: #241103;
+}
+.footer_bottom{
+    width: 100%;
+    height: 50px;
+     
+}
+.footer_bottom span{
+  float: right;
+    margin: 10px 10px 0 0;
+    color: #a5a19c;
+}
+
+
+
+
+
+
+
+
